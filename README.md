@@ -1,5 +1,5 @@
-# FFT
-快速傅里叶变换
+# FFT   Walsh
+快速傅里叶变换和Walsh变换
 mkdir build
 cd build
 cmake ..
