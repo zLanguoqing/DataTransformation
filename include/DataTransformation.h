@@ -5,4 +5,5 @@
 #include "stdlib.h"
 #define MIN (1e-30)
 void FFT(double pr[],double pi[],int n, int k,double fr[],double fi[],int l,int il);
+void  Walsh(double p[],int n,int k,double x[]);
 #endif

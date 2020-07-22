@@ -67,6 +67,16 @@ int main()
         printf("\n");
     }
     printf("\n");
+    int ii;
+    double p1[8],x[8];
+    for(ii = 0; ii <=7; ii++)
+        p1[ii] = ii+1;
+    
+    Walsh(p1,8,3,x);
+    printf("\n");
+    for(ii = 0; ii<=7; ii++)    
+        printf("x(%2d) = %13.5e \n",ii,x[ii]);
+    printf("\n");
 
     return 0;
 }
